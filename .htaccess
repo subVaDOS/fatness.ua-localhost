@@ -1,0 +1,12 @@
+#AuthUserFile administrator/.htpasswd
+#AuthGroupFile /dev/null
+#AuthName "Запароленная зона"
+#AuthType Basic
+
+#<limit GET POST>
+#require valid-user
+#</limit>
+
+#Order deny,allow
+#Deny from all
+#Allow from 89.252.54.46
